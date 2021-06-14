@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size:10px;
+	font-weight:400;
+}
+header
+{
+	width: 50%;
+	margin: 0 auto;
+	padding:5px;
+}
+.site-nav
+{
+	font-size:2em;
+	text-align: center;
+	padding-right:1em;
+}
+
+li
+{
+	display:inline-block;
+	list-style: none;
+	padding: 1em;
+}
+
+ul li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.logo
+{
+	padding-top:2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.language
+{
+	padding-top:20em;
+	padding-right:3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/*mobile*/
+@media (max-width: 320px){
+	
+}
